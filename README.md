@@ -123,7 +123,7 @@ DATA.dat 是一个加密的 ZIP 文件，包含软件运行所需的字体和背
    - 将创建的 ZIP 文件重命名为 `DATA.dat`
 
 3. **修改代码中的密码**：
-   - 在 `run.py` 文件中找到 `ResourceManager` 类
+   - 在 `pyportscan.py` 文件中找到 `ResourceManager` 类
    - 将 `self.zip_password` 的值修改为您设置的 ZIP 密码
    - 例如：`self.zip_password = "YourZipPassword"`
 
@@ -197,4 +197,5 @@ loading.dat 是软件启动时显示的加载图片。制作步骤如下：
 ---
 
 **PyPortScan** - 安全、高效的端口扫描工具
+
 
